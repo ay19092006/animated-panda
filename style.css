@@ -1,0 +1,14 @@
+div{
+    position: relative;
+    animation: panda 20s infinite;
+}
+@keyframes panda {
+    from{
+        top:210px;
+        left:-300px;
+    }
+    to{
+        top:210px;
+        left:1400px;
+    }
+}
